@@ -25,7 +25,7 @@ def search(update, context):
         if len(link):
             update.message.reply_text('Sizning sorovingiz boyicha natija: '+link[0])
         else:
-            update.message.reply_text("So'rov bo'yicha natija topilmadi!")
+            update.message.reply_text("So'rov bo'yicha natija topilmadi,so'ro'vni to'g'ri yozing!")
     else:
         update.message.reply_text("Siz hech narsa qidirmadingiz!")
 
